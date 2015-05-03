@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+	color:#fff;
+	text-align:center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2 ,h3 ,h4, h5, h6 {
+	font-family:'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight:100;
+	margin: 1em 0 1em 0;
+}
+h1{
+	font-size: 4em;
+}
+h1.logo,h2.logo,h3.logo,h4.logo,h5.logo,h6.logo {
+	font-family:Pacifico, Helvetica, Arial, sans-serif;
+}
+.stress {
+	font-weight:600;
+	margin: 40px 0px 10px 0px;
+}
+.teaser {
+	background: rgba(0, 0, 0, 0.33);
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	margin-bottom: 40px;
+	border-radius: 3px;
+}
+@media only screen and (max-width: 640px)  {
+	.teaser {width: 350px;}
+}
+
+.social a {
+	margin:0px 10px 0px 10px;
+	color:#fff;
+}
+
+/* Video Player */
+video#bgvid {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url(../img/bg.png) no-repeat;
+	background-size: cover;
+}
+
+/* Mail Chimp */
+#mc_embed_signup {
+	font-family:Helvetica,Arial,sans-serif; 
+	font-weight:100;
+}
+#mc_embed_signup input.email {
+	display: inline-block;
+	padding: 8px 0;
+	margin: 0 4% 10px 0;
+	text-indent: 5px;
+	width: 58%;
+	min-width: 130px;
+	border:none;
+	color:#585858;
+}
+#mc_embed_signup input.button {
+	display: inline-block;
+	width: 35%;
+	margin: 2px 0 10px 0;
+	min-width: 90px;
+	height:50px;
+	border:none;
+	border-radius:3px;
+}
+#mc_embed_signup .button:hover {
+	background-color: #3cada6;
+}
+#mc_embed_signup .button {
+	background-color: #51ccc5;
+}
+
+.mailchimp {
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+}
+
+.hide-this-monkey {
+	position: absolute;
+	left: -5000px;
+}
+@media only screen and (max-width: 640px)  {
+	#mc_embed_signup input.email {
+	width: 46%;
+}
+}
+
+
+/* Dividers */
+hr.launchrocket {
+    padding: 0;
+    border: none;
+    border-top: 1px solid #fff;
+    color: #B6B6B6;
+    text-align: center;
+    opacity: .8;
+    margin: 45px 0px 45px 0px;
+}
+hr.signup:after {
+	font-family: FontAwesome;
+	content: "\f0e0";
+	display: inline-block;
+	position: relative;
+	top: -1.2em;
+	font-size: 1em;
+	padding: 0 0.25em;
+	background: #fff;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	line-height: 2;
+}
+hr.social:after {
+        font-family: FontAwesome;
+	content: "\f064";
+	display: inline-block;
+	position: relative;
+	top: -1.2em;
+	font-size: 1em;
+	padding: 0 0.25em;
+	background: #fff;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	line-height: 2;
+}
